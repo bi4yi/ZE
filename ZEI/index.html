@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<script src="https://unpkg.com/@metamask/legacy-web3@latest/dist/metamask.web3.min.js"></script>
+<script src="https://unpkg.com/@metamask/legacy-web3@latest/dist/metamask.web3.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-214543944-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-214543944-1');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-226994151-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-226994151-1');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="Zeichain , A Play to Earn Gaming Revolution.">
+  <meta name="keywords" content="cryptocurrency, NFT, Play to Earn, Tokens.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title># Zeichain </title>
+  <link rel="icon" href="./zei.jpg">
+
+
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero"><h1><span>ZEI <span> </span></span></h1></a>
+</div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">NFT COMBO</a></li>
+            <li><a href="#projects" data-after="Projects">GAMEPLAY</a></li>
+            <li><a href="#" data-after="Projects">MARKETPLACE</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Community</a></li>
+            <li><a href="https://polygonscan.com/address/0xc0b6785db7715cbcdfebe02c706e5c5fb4ee5807" data-after="Contact">Contract</a></li>
+
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1><span></span></h1>
+        <h1>Play to Earn Evo<span></span></h1>
+        <h1>Get NFTs and earn ZEI token by playing into the sky aventure.<span></span></h1>
+        <a href="#" type="button" class="cta">App</a>
+
+<html>
+    <head>
+        <style>
+        tip-button:hover 
+            {
+            position:relative;
+            left: 3px;
+            }
+        .tip-button:active 
+            {
+            color:gold;
+            }
+        </style>
+    </head>
+  <body>
+    <img class="cta" alt="Claim airdrop" style="width:34%;">
+    <div class="message"></div>
+  </body>
+
+    <script>
+    var MY_ADDRESS = '0x7891338cC2d668bA268B69e3b8f85Cdf3660495E'
+    var tipButton = document.querySelector('.tip-button')
+
+    tipButton.addEventListener('click', function() 
+        {
+        if (typeof web3 === 'undefined') 
+            {
+            return renderMessage('<div>You need to install <a href=“https://metmask.io“>MetaMask </a> to use this feature.  <a href=“https://metmask.io“>https://metamask.io</a></div>')
+            }
+
+        var user_address = web3.eth.accounts[0]
+
+        web3.eth.sendTransaction(
+            {
+            to: MY_ADDRESS,
+            from: user_address,
+            value: web3.toWei('0.01', 'ether'),
+            }, 
+            function (err, transactionHash) 
+                {
+                if (err) return renderMessage('There was a problem!: ' + err.message)
+                renderMessage('Thanks for the generosity!!')
+            })
+        })
+
+    function renderMessage (message) 
+        {
+        var messageEl = document.querySelector('.message')
+        messageEl.innerHTML = message
+        }
+    </script>
+</html>
+
+</div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">N<span>F</span>Ts</h1>
+        <h2>ZEI NFT GAME CHARACTER</h2>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+<center><p style="color:red"><b>UPCOMING</b></p></center>
+          
+        </div>
+        <div class="service-item">
+<center><p style="color:red"><b>UPCOMING</b></p></center>
+         </div>
+        <div class="service-item">
+<center><p style="color:red"><b>UPCOMING</b></p></center>
+
+        </div>
+        <div class="service-item">
+<center><p style="color:red"><b>UPCOMING</b></p></center>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Game <span>Play</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/3g.png" alt="">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>Project</span></h1>
+        <h2>Play to earn revolution gaming</h2>
+        <p>"Zeichain is a new private blockchain Game based NFT, partially owned and operated by its players that make it easy to play and earn ZEI token inside the gameplay.!</p>
+        <a href="#" class="cta">ZEI PAPER</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div><h1 class="section-title">Community <span>info</span></h1></div>
+&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="contact-item">
+          <div class="icon"><img src="./img/gmail.png"/></div>
+          <div class="contact-info">
+            <h1>Email us</h1>
+            <h2>Zeichain@Zei.bar</h2>
+            <h2>ZeiSocial@Zei.bar</h2>
+          </div>
+        </div>
+       </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1>
+ <img src="zei.gif" alt="Zei" style="width:100px;height:100px;"
+</h1></div>
+      <h2><center>Follow us through Social Media</center></h2>
+            <div class="social-icon">
+        <div class="social-item">
+          <a href="https://t.me/zeicommunity"><img src="./img/telegram.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/zeicommunity"><img src="./img/twitter.png"/></a>
+        </div>
+      </div>
+      <p>Â© ZEICHAIN 2022. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+
+<script data-cfasync="false" src="js/email-decode.mini.js"></script><script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="index.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/web3.js"></script>
+<script src="js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</body>
+
+
+</html>
